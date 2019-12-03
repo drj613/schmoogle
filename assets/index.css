@@ -68,8 +68,30 @@ table {
 }
 
 .nav-icon {
-
+	margin: 10px;
+	height: 16px;
 }
+
+.nav-icon:hover {
+	cursor: pointer;
+}
+
+#right-nav {
+	display: flex;
+	align-items: center;
+}
+
+#user-menu {
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: rgb(18, 103, 18);
+}
+
+#user-menu:hover {
+	cursor: pointer;;
+}
+
 
 .main {
   display: flex;
